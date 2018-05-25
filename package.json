@@ -1,0 +1,14 @@
+{
+  "name": "subset-js",
+  "version": "0.0.1",
+  "description": "a js challenge to write code using only int and lambda as primitives",
+  "main": "subset.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "luke@kaal.im",
+  "license": "ISC"
+}
