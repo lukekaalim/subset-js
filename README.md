@@ -1,7 +1,7 @@
-# Scheme.js
+# Subset.js
 
 - Challenge: reimplement basic js features using nothing but a limited subset of js
-- Inspired by Scheme
+- Inspired by a a vauge memory of SICP and Scheme.
 - Done for fun
 - Maybe try optimizing with prepack?
 - Maybe try building a babel plugin to turn normal js code into this?
@@ -13,7 +13,7 @@
 ```
 Note that the `extern` directory contains cheating code: this is so we can observe the code easier.
 
-## Expected output
+## Example Code
 ```
   import { NOOP } from 'std/util';
   import array, { ADD, LENGTH } from 'std/array;
@@ -32,6 +32,7 @@ Note that the `extern` directory contains cheating code: this is so we can obser
 
   const JERRY = array(74)(ADD, 101)(ADD, 114)(ADD, 114)(ADD, 121); // Jerry
   const CLINT = array(67)(ADD, 108)(ADD, 105)(ADD, 110)(ADD, 116); // Clint
+  // const DAVID = array(0, and(4, and(23, and(47)))); alt syntax
 
   const hasFriends = friends => greaterThan(friends(LENGTH), 0);
 
