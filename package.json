@@ -4,7 +4,7 @@
   "description": "a js challenge to write code using only int and lambda as primitives",
   "main": "subset.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"no tests yet\""
   },
   "keywords": [
     "js"
